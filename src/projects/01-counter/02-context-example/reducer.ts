@@ -1,5 +1,6 @@
-import { COUNTER_ACTIONS } from "../constants";
-import { IAction, IInitialState } from "../interface";
+import { COUNTER_ACTIONS } from "./constants";
+
+import { IAction, IInitialState } from "./interface";
 
 function reducer(state: IInitialState, action: IAction) {
   switch (action.type) {

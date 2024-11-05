@@ -1,4 +1,5 @@
 import { Button, ContentWrapper, Header, Result } from "../shared/components";
+
 import useCounterContext from "./hook/useCounterContext";
 
 function Counter() {
@@ -15,17 +16,11 @@ function Counter() {
           -
         </Button>
 
-        <Button
-          className="bg-neutral-500 hover:bg-neutral-400"
-          onClick={onReset}
-        >
+        <Button className="bg-neutral-500 hover:bg-neutral-400" onClick={onReset}>
           Reset
         </Button>
 
-        <Button
-          className="bg-green-500 hover:bg-green-400"
-          onClick={onIncrease}
-        >
+        <Button className="bg-green-500 hover:bg-green-400" onClick={onIncrease}>
           +
         </Button>
       </div>

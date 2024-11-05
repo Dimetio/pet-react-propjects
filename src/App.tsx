@@ -2,7 +2,7 @@ import Counter from "./projects/01-counter";
 
 function App() {
   return (
-    <main className="grid place-items-center min-h-screen p-3 bg-gray-50 gap-20">
+    <main className="grid min-h-screen place-items-center gap-20 bg-gray-50 p-3">
       <Counter />
     </main>
   );
