@@ -116,6 +116,6 @@ svg {
 @tailwind utilities;
 @layer base {
   .btn {
-    @apply px-3 py-2 border rounded bg-white hover:bg-slate-100;
+    @apply rounded border bg-white px-3 py-2 hover:bg-slate-100;
   }
 }

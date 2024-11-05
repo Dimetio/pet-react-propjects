@@ -1,6 +1,6 @@
 function ContentWrapper({ children }: { children: React.ReactNode }) {
   return (
-    <div className="max-w-md w-full mx-auto p-3 grid gap-3 bg-white border-2 rounded-md">
+    <div className="mx-auto grid w-full max-w-md gap-3 rounded-md border-2 bg-white p-3">
       {children}
     </div>
   );

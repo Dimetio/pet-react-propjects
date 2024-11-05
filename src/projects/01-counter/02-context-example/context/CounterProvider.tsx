@@ -1,7 +1,10 @@
 import { ReactNode, useReducer } from "react";
+
+import reducer from "../reducer";
+
 import { COUNTER_ACTIONS, CounterContext } from "../constants";
+
 import { IInitialState } from "../interface";
-import reducer from "../reducer/reducer";
 
 /** Начальное состояние */
 const initialState: IInitialState = { counter: 0 };

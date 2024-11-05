@@ -1,0 +1,23 @@
+{
+    "plugins": [
+        "@trivago/prettier-plugin-sort-imports",
+        "babel-plugin-named-exports-order",
+        "prettier-plugin-tailwindcss"
+    ],
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": false,
+    "printWidth": 100,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "importOrder": [
+        "(?=react)((?!css).)*$|^react-redux$|^@(.*)|@(.*)",
+        "(?=components)((?!interface|constants|enum|interface|type|types|hooks).)*$",
+        "<THIRD_PARTY_MODULES>",
+        "hooks|hook",
+        "constants|enum",
+        "interface|type|types"
+    ],
+    "importOrderSeparation": true,
+    "importOrderGroupNamespaceSpecifiers": true
+}

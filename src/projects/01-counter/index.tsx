@@ -1,4 +1,5 @@
-import { ContentWrapper } from "../components";
+import { ContentWrapper } from "../../components";
+
 import SimpleCounter from "./01-simple-example";
 import ContextCounter from "./02-context-example";
 import ReduxCounter from "./03-redux-example";
