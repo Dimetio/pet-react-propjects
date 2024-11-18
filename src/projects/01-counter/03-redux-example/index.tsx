@@ -1,6 +1,7 @@
 import { Provider } from "react-redux";
 
 import Counter from "./Counter";
+
 import { store } from "./store";
 
 function ReduxCounter() {

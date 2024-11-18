@@ -16,6 +16,7 @@
         "<THIRD_PARTY_MODULES>",
         "hooks|hook",
         "constants|enum",
+        "store",
         "interface|type|types"
     ],
     "importOrderSeparation": true,
