@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import { StopWatchContextProps } from "./02-context-example/interface";
+import { StopWatchContextProps } from "../02-context-example/interface";
 
 export const StopWatchContext = createContext<StopWatchContextProps | null>(null);
 
