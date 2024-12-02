@@ -1,15 +1,16 @@
 /**
- * Компонент обертка для блока с темой упражнения
- * @param children тема упражнения
+ * Компонент для обертки в теме упражнения с заголовком
  * @param title заголовок
+ * @param children дочерний элемент
+ * @returns
  */
-function ContentWrapper({ children, title }: { children: React.ReactNode; title: string }) {
+function ContentWrapper({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="w-full border-b-2 pb-10">
-      <h2 className="mb-10 text-4xl font-bold">{title}:</h2>
+    <div className="mx-auto grid w-full max-w-md gap-3 rounded-md border-2 bg-white p-3">
+      <h3 className="text-center text-lg font-bold md:text-3xl">{title}</h3>
 
       {children}
-    </section>
+    </div>
   );
 }
 

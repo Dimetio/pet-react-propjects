@@ -15,6 +15,7 @@
         "(?=components)((?!interface|constants|enum|interface|type|types|hooks).)*$",
         "<THIRD_PARTY_MODULES>",
         "hooks|hook",
+        "context",
         "constants|enum",
         "store",
         "interface|type|types"
