@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import clsx from "clsx";
 
 const routes = [
-  { path: "/counter", title: "Counter" },
+  { path: "counter", title: "Counter" },
   { path: "stopwatch", title: "StopWatch" },
 ];
 
