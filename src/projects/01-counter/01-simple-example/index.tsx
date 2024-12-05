@@ -24,15 +24,15 @@ function SimpleCounter() {
       <Result counter={counter} />
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <Button className="bg-red-400 hover:bg-red-500" onClick={handleDecrease}>
+        <Button color="red" onClick={handleDecrease}>
           -
         </Button>
 
-        <Button className="bg-neutral-400 hover:bg-neutral-500" onClick={handleReset}>
+        <Button color="neutral" onClick={handleReset}>
           Reset
         </Button>
 
-        <Button className="bg-green-400 hover:bg-green-500" onClick={handleIncrease}>
+        <Button color="green" onClick={handleIncrease}>
           +
         </Button>
       </div>

@@ -11,15 +11,15 @@ function Counter() {
       <Result counter={counter} />
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <Button className="bg-red-400 hover:bg-red-500" onClick={onDecrease}>
+        <Button color="red" onClick={onDecrease}>
           -
         </Button>
 
-        <Button className="bg-neutral-400 hover:bg-neutral-500" onClick={onReset}>
+        <Button color="neutral" onClick={onReset}>
           Reset
         </Button>
 
-        <Button className="bg-green-400 hover:bg-green-500" onClick={onIncrease}>
+        <Button color="green" onClick={onIncrease}>
           +
         </Button>
       </div>

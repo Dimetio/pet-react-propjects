@@ -11,15 +11,15 @@ function StopWatch() {
       <Dial timer={timer} />
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <Button className="bg-green-400 hover:bg-green-500" onClick={handleStart}>
+        <Button color="green" onClick={handleStart}>
           Start
         </Button>
 
-        <Button className="bg-neutral-400 hover:bg-neutral-500" onClick={handlePause}>
+        <Button color="neutral" onClick={handlePause}>
           Pause
         </Button>
 
-        <Button className="bg-red-400 hover:bg-red-500" onClick={handleStop}>
+        <Button color="red" onClick={handleStop}>
           Stop
         </Button>
       </div>
