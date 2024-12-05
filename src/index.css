@@ -72,22 +72,6 @@ a {
   color: inherit;
 }
 
-.btn,
-.button,
-button {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  cursor: pointer;
-  outline: none;
-  text-align: center;
-  padding: 6px 14px;
-  border-radius: 4px;
-  background: transparent;
-  transition: background-color 0.3s ease-in-out;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -100,22 +84,10 @@ button {
   border: 0;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
 svg {
   pointer-events: none;
 }
 
-/* ⛔️ Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base {
-  .btn {
-    @apply rounded border bg-white px-3 py-2 hover:bg-slate-100;
-  }
-}

@@ -21,23 +21,29 @@ function Counter() {
       <Result counter={counter} />
 
       <div className="grid gap-3 sm:grid-cols-5">
-        <Button color="red" onClick={() => dispatch(decrement())}>
+        <Button className="bg-red-400 hover:bg-red-500" onClick={() => dispatch(decrement())}>
           -
         </Button>
 
-        <Button color="red" onClick={() => dispatch(decrementByAmount(10))}>
+        <Button
+          className="bg-red-400 hover:bg-red-500"
+          onClick={() => dispatch(decrementByAmount(10))}
+        >
           -10
         </Button>
 
-        <Button color="neutral" onClick={() => dispatch(reset())}>
+        <Button className="bg-neutral-400 hover:bg-neutral-500" onClick={() => dispatch(reset())}>
           Reset
         </Button>
 
-        <Button color="green" onClick={() => dispatch(increment())}>
+        <Button className="bg-green-400 hover:bg-green-500" onClick={() => dispatch(increment())}>
           +
         </Button>
 
-        <Button color="green" onClick={() => dispatch(incrementByAmount(10))}>
+        <Button
+          className="bg-green-400 hover:bg-green-500"
+          onClick={() => dispatch(incrementByAmount(10))}
+        >
           +10
         </Button>
       </div>

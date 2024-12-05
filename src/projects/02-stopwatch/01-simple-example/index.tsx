@@ -11,15 +11,15 @@ function SimpleStopWatch() {
       <Dial timer={timer} />
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <Button color="green" onClick={handleStart}>
+        <Button className="bg-green-400 hover:bg-green-500" onClick={handleStart}>
           Start
         </Button>
 
-        <Button color="neutral" onClick={handlePause}>
+        <Button className="bg-neutral-400 hover:bg-neutral-500" onClick={handlePause}>
           Pause
         </Button>
 
-        <Button color="red" onClick={handleStop}>
+        <Button className="bg-red-400 hover:bg-red-500" onClick={handleStop}>
           Stop
         </Button>
       </div>

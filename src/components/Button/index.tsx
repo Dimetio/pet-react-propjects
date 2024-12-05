@@ -1,9 +1,9 @@
 import { IButtonProps } from "./interface";
 
-function Button({ color, children, className, onClick }: IButtonProps) {
+function Button({ children, className, onClick }: IButtonProps) {
   return (
     <button
-      className={`btn bg-${color}-400 font-bold text-white hover:bg-${color}-500 ${className}`}
+      className={`flex items-center justify-center rounded border px-3 py-2 font-bold text-white outline-none hover:cursor-pointer ${className}`}
       onClick={onClick}
     >
       {children}
