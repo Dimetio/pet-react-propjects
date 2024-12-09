@@ -1,11 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 
+import routes from "../routes";
 import clsx from "clsx";
-
-const routes = [
-  { path: "counter", title: "Counter" },
-  { path: "stopwatch", title: "StopWatch" },
-];
 
 function Navigation() {
   return (
