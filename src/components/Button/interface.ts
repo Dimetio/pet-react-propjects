@@ -1,6 +1,6 @@
 export interface IButtonProps {
-  color: string;
   children: React.ReactNode;
+  color?: string;
   className?: string;
   onClick: () => void;
 }

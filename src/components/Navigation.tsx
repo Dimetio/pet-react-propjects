@@ -9,8 +9,8 @@ function Navigation() {
       <Link to="/">Главная</Link>
 
       <nav className="space-x-2">
-        {routes.map(({ path, title }) => (
-          <NavLink to={path}>
+        {routes.map(({ path, title }, index) => (
+          <NavLink to={path} key={`${index}`}>
             {({ isActive }) => (
               <span
                 className={clsx("hover:border-b hover:border-violet-500 hover:text-violet-500", {

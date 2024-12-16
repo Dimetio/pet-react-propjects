@@ -8,8 +8,8 @@ function Main() {
       <p className="font-semibold">Коллекция пет-проектов на React/TypeScript</p>
 
       <ul className="grid grid-cols-5 gap-5">
-        {routes.map(({ path, title }) => (
-          <li>
+        {routes.map(({ path, title }, index) => (
+          <li key={`${index}`}>
             <Link
               className="flex h-[100px] items-center justify-center border hover:bg-gray-50"
               to={path}
