@@ -1,8 +1,9 @@
 import { ReactNode, useReducer } from "react";
 
+import { CounterContext } from ".";
 import reducer from "../reducer";
 
-import { COUNTER_ACTIONS, CounterContext } from "../constants";
+import { COUNTER_ACTIONS } from "../constants";
 
 import { IInitialState } from "../interface";
 

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import { CounterContext } from "../constants";
+import { CounterContext } from "../context";
 
 function useCounterContext() {
   const context = useContext(CounterContext);
