@@ -1,6 +1,6 @@
 import StopWatch from "./StopWatch";
 
-import { StopWatchProvider } from "./context/useStopWatchContext";
+import { StopWatchProvider } from "./context/StopWatchContext";
 
 function ContextStopWatch() {
   return (

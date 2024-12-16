@@ -1,6 +1,6 @@
-import { useActions } from "../../shared/hooks";
+import { StopWatchContext } from ".";
 
-import { StopWatchContext } from "../../shared/constants";
+import { useActions } from "../../shared/hooks";
 
 export const StopWatchProvider = ({ children }: { children: React.ReactNode }) => {
   const { timer, handleStart, handleStop, handlePause } = useActions();
